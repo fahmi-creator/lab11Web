@@ -52,5 +52,37 @@ Menambahkan kode di dalam Routes.php seperti berikut.
 Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut.
 ![a 9](https://user-images.githubusercontent.com/56380765/122133244-88151080-ce66-11eb-9236-7965abbb5435.png)
 
+# Langkah 6
+Membuat Controller
+Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.
+![a 11](https://user-images.githubusercontent.com/56380765/122145546-a6d3d100-ce7f-11eb-9469-273962aab164.png)
+
+# Langkah 7
+Auto Routing
+Secara default fitur autoroute pada Codeiginiter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variabelnya. Untuk menonaktifkan ubah nilai true menjadi false. Kemudian tambahkan method baru pada Controller Page seperti berikut. Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
+![a 12](https://user-images.githubusercontent.com/56380765/122145607-bfdc8200-ce7f-11eb-9500-b7d98206b344.png)
+
+# Langkah 8
+Selanjutnya adalah membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut. Kemudian ubah method about pada class Controller Page menjadi seperti berikut.
+![a 13](https://user-images.githubusercontent.com/56380765/122145725-fc0fe280-ce7f-11eb-8e99-45eac16e7edc.png)
+
+seteleh membuat folder template mengubah about.php membuat file style.css maka hasil akhir nya seperti berikut
+![a 15](https://user-images.githubusercontent.com/56380765/122146687-b18f6580-ce81-11eb-9cb7-a0179ba09f02.png)
+![a 17](https://user-images.githubusercontent.com/56380765/122146728-beac5480-ce81-11eb-9575-4dd1ccbfd0cc.png)
+
+Pertanyaan dan Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+# menu about
+![a 20](https://user-images.githubusercontent.com/56380765/122147898-f0beb600-ce83-11eb-9650-0401136121cf.png)
+
+# Menu kontak
+![a 21](https://user-images.githubusercontent.com/56380765/122148059-2a8fbc80-ce84-11eb-98b3-a5b6350108d0.png)
+
+
+
+
+
+
 
 
