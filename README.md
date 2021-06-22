@@ -78,8 +78,42 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 # Menu kontak
 ![a 21](https://user-images.githubusercontent.com/56380765/122148059-2a8fbc80-ce84-11eb-98b3-a5b6350108d0.png)
+```
+Fahmi Abdul Muthi
+311910463
+Univ. Pelita Bangsa
+```
+# Praktikum 12 - Lanjutan Codeigniter - Pemrograman Web
+# Langkah 1 
+Membuat Database di localhost
+![a 1](https://user-images.githubusercontent.com/56380765/122880002-b497c380-d363-11eb-823a-5881625c98c3.png)
 
+# Langkah 2
+Konfigurasi koneksi database
+Konfigurasi dapat dilakukan dengan cara mengubah beberapa kode pada file ```htdocs\lab11_php_ci\ci4\.env``` Cari pada line DATABASE lalu ubah dan hilangkan tanda ```#``` Maka jadi seperti ini
+![a 2](https://user-images.githubusercontent.com/56380765/122881130-fd9c4780-d364-11eb-82b0-f3bbe68e9ab7.png)
 
+# Langkah 3
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori ```app/Models``` dengan nama ```ArtikelModel.php```
+![a 3](https://user-images.githubusercontent.com/56380765/122882305-3c7ecd00-d366-11eb-92ec-8d9823dc8f04.png)
+
+# Langkah 4
+Buat Controller baru dengan nama ```artikel.php``` pada direktori ```app/Controllers.```
+![a 4](https://user-images.githubusercontent.com/56380765/122882969-e9f1e080-d366-11eb-9816-e386197271eb.png)
+Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+![a 5](https://user-images.githubusercontent.com/56380765/122888034-a8afff80-d36b-11eb-9220-a4f3695bbd4a.png)
+Kemudian tambahkan beberapa data pada database agar dapat ditampilkan datanya.
+![a 6](https://user-images.githubusercontent.com/56380765/122888403-0b090000-d36c-11eb-8cf9-b0c8c4b4586d.png)
+Maka akan muncul tampilan seperti ini ketika browser direfresh.
+![a 7](https://user-images.githubusercontent.com/56380765/122888475-1b20df80-d36c-11eb-95a9-fd3abb0275af.png)
+
+# Langkah 5
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller ```Artikel``` dengan nama ```view().```
+![a 8](https://user-images.githubusercontent.com/56380765/122889676-317b6b00-d36d-11eb-831a-b7d782822530.png)
+
+# Langkah 6
+Buat view baru untuk halaman detail dengan nama ```app/views/artikel/detail.php.```
+![a 9](https://user-images.githubusercontent.com/56380765/122889985-7acbba80-d36d-11eb-9f71-0388c6944cb2.png)
 
 
 
