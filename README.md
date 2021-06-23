@@ -115,7 +115,18 @@ Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berb
 Buat view baru untuk halaman detail dengan nama ```app/views/artikel/detail.php.```
 ![a 9](https://user-images.githubusercontent.com/56380765/122889985-7acbba80-d36d-11eb-9f71-0388c6944cb2.png)
 
+# Langkah 7
+Buka Kembali file ```app/config/Routes.php,``` kemudian tambahkan routing untuk artikel detail.
+![a 10](https://user-images.githubusercontent.com/56380765/123016448-d0977580-d3f4-11eb-940f-029751e4407d.png)
+![a 11](https://user-images.githubusercontent.com/56380765/123016472-dc833780-d3f4-11eb-8573-65689a484bb5.png)
 
+# Langkah 8 
+Buat method baru pada Controller Artikel dengan nama ```admin_index().```
+![a 12](https://user-images.githubusercontent.com/56380765/123016526-00df1400-d3f5-11eb-93bd-5f5a5aadbef6.png)
+Kemudian buat view untuk tampilan admin dengan nama ```admin_index.php.```
+![a 16](https://user-images.githubusercontent.com/56380765/123016794-91b5ef80-d3f5-11eb-9f15-dff70ce599e1.png)
+Tambahkan routing untuk menu admin seperti berikut:
+![a 13](https://user-images.githubusercontent.com/56380765/123016916-d3469a80-d3f5-11eb-8548-07432e3baa19.png)
 
 
 
