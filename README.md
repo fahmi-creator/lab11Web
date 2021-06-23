@@ -127,6 +127,33 @@ Kemudian buat view untuk tampilan admin dengan nama ```admin_index.php.```
 ![a 16](https://user-images.githubusercontent.com/56380765/123016794-91b5ef80-d3f5-11eb-9f15-dff70ce599e1.png)
 Tambahkan routing untuk menu admin seperti berikut:
 ![a 13](https://user-images.githubusercontent.com/56380765/123016916-d3469a80-d3f5-11eb-8548-07432e3baa19.png)
+![a 17](https://user-images.githubusercontent.com/56380765/123048893-1b32e500-d429-11eb-8237-bc6b3a23436b.png)
+
+# Langkah 9
+Menambahkan data artikel
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama ```add()```
+![a 18](https://user-images.githubusercontent.com/56380765/123049337-a44a1c00-d429-11eb-8d7c-b11bcd36bb3d.png)
+Kemudian buat view untuk form tambah dengan nama form_add.php
+![a 19](https://user-images.githubusercontent.com/56380765/123049683-073bb300-d42a-11eb-83a4-e3e034a27a88.png)
+Klik menu Tambah Artikel dan inilah hasilnya.
+![a 21](https://user-images.githubusercontent.com/56380765/123049828-2f2b1680-d42a-11eb-8ab5-195224274b60.png)
+
+# Langkah 10
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
+![a 22](https://user-images.githubusercontent.com/56380765/123050129-8e892680-d42a-11eb-8903-f58d91f88094.png)
+Kemudian buat view untuk form tambah dengan nama form_edit.php
+![a 23](https://user-images.githubusercontent.com/56380765/123050347-cc864a80-d42a-11eb-9fb4-f92c7b622522.png)
+Klik ubah pada salah satu artikel dan inilah hasilnya
+![a 24](https://user-images.githubusercontent.com/56380765/123050536-05beba80-d42b-11eb-81f3-3b63b400f227.png)
+# Langkah 11
+Menghapus data
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+![a 25](https://user-images.githubusercontent.com/56380765/123050814-4a4a5600-d42b-11eb-9acc-d5b56c7aa246.png)
+![a 26](https://user-images.githubusercontent.com/56380765/123050927-69e17e80-d42b-11eb-8cd5-33d67ab5d71a.png)
+
+
+
+
 
 
 
