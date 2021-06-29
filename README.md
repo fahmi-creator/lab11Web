@@ -199,7 +199,10 @@ Tambahkan route logout dengan cara ke direktori app\Config\Routes.php lalu tamba
 
 # Langkah 8
 Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.
+tampilan sebelum login:
 ![akhir](https://user-images.githubusercontent.com/56380765/123833434-87817d00-d930-11eb-983f-600b935eb0b1.png)
+Tampilan setelah Login:
+![setelah](https://user-images.githubusercontent.com/56380765/123835423-b4cf2a80-d932-11eb-96cf-cb7cdcdd2294.png)
 
 
 
