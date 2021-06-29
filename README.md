@@ -152,6 +152,62 @@ Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 ![a 26](https://user-images.githubusercontent.com/56380765/123050927-69e17e80-d42b-11eb-8cd5-33d67ab5d71a.png)
 
 
+# Praktikum 13
+
+# langkah 1
+menambahkan databse pada ```lab_ci```
+![a 1](https://user-images.githubusercontent.com/56380765/123822793-cad6ee00-d926-11eb-918a-407a762e5b51.png)
+
+# Langkah 2
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada direktori app/Models dengan nama UserModel.php
+![a,2](https://user-images.githubusercontent.com/56380765/123823207-2dc88500-d927-11eb-916d-05fd361ce48a.png)
+
+# Langkah 3
+Buat Controller baru dengan nama User.php pada direktori app/Controllers. Kemudian tambahkan method index() untuk menampilkan daftar user, dan method login() untuk proses login.
+![a 3](https://user-images.githubusercontent.com/56380765/123823329-49cc2680-d927-11eb-8a36-e114cd110756.png)
+
+# Langkah 4
+Buat folder baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.Buat folder baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.
+![a 4](https://user-images.githubusercontent.com/56380765/123823718-a7607300-d927-11eb-9e2e-74cf963aef9e.png)
+
+# Langkah 5
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+![a 5](https://user-images.githubusercontent.com/56380765/123826208-c06a2380-d929-11eb-90ca-e07e170ba16b.png)
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+![a 6](https://user-images.githubusercontent.com/56380765/123826452-fad3c080-d929-11eb-8bac-25bbe385b6f3.png)
+Selanjutnya buka kembali CLI dan ketik perintah berikut:
+![a 7](https://user-images.githubusercontent.com/56380765/123826522-0c1ccd00-d92a-11eb-85ca-328335d4686e.png)
+Jangan lupa jalankan perintah ini untuk menjalankan ci4 di port 8080. Buka kembali CLI dan ketik perintah berikut:
+```php spark serve```
+![a 8](https://user-images.githubusercontent.com/56380765/123826637-2787d800-d92a-11eb-9cf1-ea56093d638b.png)
+
+# Langkah 6
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters.
+![a 61](https://user-images.githubusercontent.com/56380765/123828213-7aae5a80-d92b-11eb-80d7-6597623a6cd6.png)
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+![a 62](https://user-images.githubusercontent.com/56380765/123828266-87cb4980-d92b-11eb-8c30-c3fff5fa8f2e.png)
+Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
+![a 63](https://user-images.githubusercontent.com/56380765/123828324-94e83880-d92b-11eb-94d8-c4ecc63a54f8.png)
+
+# Langkah 7
+Tambahkan method logout pada Controller User seperti berikut:
+![a 71](https://user-images.githubusercontent.com/56380765/123833096-340f2f00-d930-11eb-977a-29a43b491af5.png)
+Tambahkan menu logout di header admin. Ke direktori app\view\template lalu buka file admin_header.php tambahkan kode berikut
+![a 72](https://user-images.githubusercontent.com/56380765/123833185-4ab58600-d930-11eb-8c7f-1019b6bf9fd3.png)
+Tambahkan route logout dengan cara ke direktori app\Config\Routes.php lalu tambahkan kode berikut
+![a 73](https://user-images.githubusercontent.com/56380765/123833274-63be3700-d930-11eb-9424-306d3a485e0a.png)
+
+# Langkah 8
+Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.
+![akhir](https://user-images.githubusercontent.com/56380765/123833434-87817d00-d930-11eb-983f-600b935eb0b1.png)
+
+
+
+
+
+
+
+
 
 
 
